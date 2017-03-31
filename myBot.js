@@ -2,18 +2,18 @@
 const Discord = require('discord.js');
 
 //Create client instance as bot
-const botRem = new Discord.Client();
+const botGenjo = new Discord.Client();
 
 //Set listener on 'ready'
-botRem.on('ready', () => {
-  console.log('Rem ready!');
+botGenjo.on('ready', () => {
+  console.log('My Ultimate is ready!');
 });
 
 //Set listener on 'message'
-botRem.on('message', message => {
-  if (message.content === 'ฉันรักเอมิเลีย') {
-    message.reply('ถึงยังไงเรมก็รักสุบารุค่ะ');
+botGenjo.on('message', message => {
+  if (message.content === 'Hello') {
+    message.reply('I need Healing!');
   }
 });
 
-botRem.login('YOUR BOT TOKEN HERE!!!');
+botGenjo.login('Mjk3NDQ4MjkwODE4MTk1NDU4.C8A73w.x87fAAGCjPCIxYxk1hZm-1zoNDU');
